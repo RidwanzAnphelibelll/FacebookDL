@@ -1,0 +1,15 @@
+{
+  "name": "FacebookDL",
+  "main": "_worker.js",
+  
+  "scripts": {
+    "deploy": "wrangler deploy",
+    "build": "wrangler deploy --dry-run",
+    "dev": "wrangler dev --remote"
+  },
+  
+  "author": "RSCoders",
+  "devDependencies": {
+    "wrangler": "^3.2.0"
+  }
+}
